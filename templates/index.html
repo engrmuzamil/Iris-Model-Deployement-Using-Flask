@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>IRIS Dataset Model Integration in Flask</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  </head>
+  <body>
+
+    <form class="form" action = "http://127.0.0.1:5000/classify" method="post" >
+      <h1>IRIS Dataset Model Integration in Flask</h1>
+      <label for="first" class="label">Spetal Length</label>
+      <br>
+      <input type="number" step = "0.01" name="first" value="" required>
+      <br>
+      <label for="second" class="label">Spetal Width</label>
+      <br>
+      <input  type="number" step = "0.01" name="second" value="" required>
+      <br>
+      <label for="third" class="label">Petal Length</label>
+      <br>
+      <input  type="number" step = "0.01" name="third" value="" required>
+      <br>
+      <label for="fourth" class="label">Petal Width</label>
+      <br>
+      <input  type="number" step = "0.01" name="fourth" value="" required>
+      <br>
+      <input type="submit" name="" value="SUBMIT" class="btn">
+    </form>
+  </body>
+</html>

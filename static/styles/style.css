@@ -1,0 +1,29 @@
+.form, .card{
+  margin: 5em;
+  text-align: center;
+  padding: 5px;
+  font-family: sans-serif;
+  background-color: skyblue;
+  color: darkblue;
+  border-radius: 30px;
+  border-color: darkblue;
+}
+body{
+}
+input{
+  padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+label{
+  margin-left: -8em;
+}
+
+.btn{
+  margin-top: 1em;
+  background-color: darkblue;
+  color: white;
+  border-radius: 30px;
+  padding: 1em;
+}
